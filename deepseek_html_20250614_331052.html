@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salbutamol (Albuterol) - Drug Information</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+            --light: #ecf0f1;
+            --dark: #2c3e50;
+            --text: #333;
+            --highlight: #f39c12;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 15px 0;
+            margin-bottom: 30px;
+        }
+        
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .logo {
+            height: 80px;
+        }
+        
+        h1 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        
+        h2 {
+            color: var(--secondary);
+            margin-top: 30px;
+        }
+        
+        h3 {
+            color: var(--primary);
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+        
+        .highlight {
+            background-color: rgba(52, 152, 219, 0.1);
+            padding: 15px;
+            border-left: 4px solid var(--secondary);
+            margin: 20px 0;
+        }
+        
+        .warning {
+            background-color: rgba(231, 76, 60, 0.1);
+            padding: 15px;
+            border-left: 4px solid var(--accent);
+            margin: 20px 0;
+        }
+        
+        .important {
+            font-weight: bold;
+            color: var(--accent);
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: var(--primary);
+            color: white;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        .chemical-structure {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .chemical-structure img {
+            max-width: 200px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: white;
+        }
+        
+        .video-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .video-container iframe {
+            max-width: 100%;
+        }
+        
+        .formulation-img {
+            float: right;
+            margin-left: 20px;
+            max-width: 300px;
+            border: 1px solid #ddd;
+        }
+        
+        .urdu-link {
+            direction: rtl;
+            text-align: right;
+            font-family: 'Nastaliq', 'Urdu Typesetting', serif;
+            font-size: 1.2em;
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-right: 4px solid #2c3e50;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: var(--primary);
+            color: white;
+        }
+        
+        .keypoint-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .keypoint-btn {
+            background-color: var(--secondary);
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: all 0.3s;
+        }
+        
+        .keypoint-btn:hover {
+            background-color: var(--primary);
+            transform: translateY(-2px);
+        }
+        
+        .off-label {
+            background-color: rgba(243, 156, 18, 0.1);
+            padding: 15px;
+            border-left: 4px solid var(--highlight);
+            margin: 20px 0;
+        }
+        
+        .documented-by {
+            font-style: italic;
+            text-align: right;
+            margin-top: 30px;
+            padding-top: 10px;
+            border-top: 1px solid #ddd;
+        }
+        
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .formulation-img {
+                float: none;
+                margin: 0 auto 20px;
+                display: block;
+            }
+            
+            .keypoint-buttons {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <img src="https://umt.edu.pk/wp-content/uploads/2020/04/umt-logo-1.png" alt="UMT Logo" class="logo">
+            <h1>Salbutamol (Albuterol) - Drug Information</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="keypoint-buttons">
+            <button class="keypoint-btn" onclick="location.href='#indications'">Indications</button>
+            <button class="keypoint-btn" onclick="location.href='#dosage'">Dosage</button>
+            <button class="keypoint-btn" onclick="location.href='#side-effects'">Side Effects</button>
+            <button class="keypoint-btn" onclick="location.href='#interactions'">Interactions</button>
+            <button class="keypoint-btn" onclick="location.href='#contraindications'">Contraindications</button>
+            <button class="keypoint-btn" onclick="location.href='#administration'">Administration</button>
+        </div>
+        
+        <div class="chemical-structure">
+            <img src="https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=2083&t=l" alt="Salbutamol Chemical Structure">
+            <p>Chemical Structure of Salbutamol</p>
+        </div>
+        
+        <div class="card">
+            <h2>Basic Information</h2>
+            <p><strong>Chemical Name:</strong> α1-[[(1,1-dimethylethyl)amino]methyl]-4-hydroxy-1,3-benzenedimethanol hemisulfate</p>
+            <p><strong>Generic Name:</strong> Albuterol (US), Salbutamol (International)</p>
+            <p><strong>Drug Class:</strong> β<sub>2</sub>-adrenoreceptor agonist</p>
+            
+            <div class="highlight">
+                <p><strong>Description:</strong> Albuterol, also known as salbutamol, is approved by the U.S. FDA for treating and preventing acute or severe bronchospasm in patients with reversible obstructive airway disease, including exercise-induced bronchospasm. It is a commonly prescribed bronchodilator used to manage various respiratory conditions.</p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Mechanism of Action</h2>
+            <p>The β<sub>2</sub>-adrenoreceptor agonist binds to the β<sub>2</sub> receptor, which activates adenyl cyclase, resulting in the conversion of ATP to cyclic AMP (cAMP). This promotes bronchodilation and relieves symptoms experienced during an acute asthma episode.</p>
+        </div>
+        
+        <div class="card" id="indications">
+            <h2>Indications</h2>
+            <ul>
+                <li>Asthma (mild to life-threatening)</li>
+                <li>Reversible airway obstruction</li>
+                <li>Exercise or allergen-induced bronchospasm</li>
+                <li>Nocturnal asthma</li>
+                <li>Premature labour (under specialist care)</li>
+            </ul>
+            
+            <div class="off-label">
+                <h3>Off-Label Uses</h3>
+                <ul>
+                    <li><strong>Premature labor:</strong> Used to inhibit uterine contractions (tocolytic agent) under specialist supervision</li>
+                    <li><strong>Hyperkalemia:</strong> May be used as adjunctive treatment in emergency management</li>
+                    <li><strong>Bronchopulmonary dysplasia:</strong> In neonates, though evidence is limited</li>
+                </ul>
+                <p><em>Note: Off-label use should only be undertaken by specialists with appropriate monitoring.</em></p>
+            </div>
+        </div>
+        
+        <div class="card" id="dosage">
+            <h2>Routes & Dosage</h2>
+            
+            <h3>1. By Inhalation (Aerosol / Powder / Nebuliser)</h3>
+            <h4>Acute Asthma | Exacerbation</h4>
+            <ul>
+                <li>Child 1 month-4 yrs: 2.5 mg every 20-30 mins</li>
+                <li>Child 5-11 yrs: 2.5-5 mg every 20-30 mins</li>
+                <li>Child 12-17 yrs: 5 mg every 20-30 mins</li>
+                <li>Adult: 5 mg every 20-30 mins (Oxygen-driven nebuliser preferred)</li>
+            </ul>
+            
+            <h4>Moderate-Severe Asthma (Spacer Use)</h4>
+            <ul>
+                <li>Child & Adult: 2-10 puffs every 10-20 mins (100 mcg/puff)</li>
+            </ul>
+            
+            <h4>Bronchospasm Prophylaxis</h4>
+            <ul>
+                <li>Adult: 200 mcg</li>
+                <li>Child: 100-200 mcg up to 4×/day</li>
+            </ul>
+            
+            <h3>2. By Mouth (Immediate-Release)</h3>
+            <ul>
+                <li>Adult: 4 mg 3-4×/day (Max single dose: 8 mg)</li>
+                <li><em>Use lower dose in elderly; inhalation preferred</em></li>
+            </ul>
+            
+            <h3>3. By Intravenous Injection (Severe cases only)</h3>
+            <ul>
+                <li>Child 1-23 months: 5 mcg/kg over 5 min</li>
+                <li>Child 2-17 yrs: 15 mcg/kg (Max 250 mcg) over 5 min</li>
+            </ul>
+            
+            <h3>4. By Intravenous Infusion (Premature Labour)</h3>
+            <ul>
+                <li>Adult: Start at 10 mcg/min; max 45 mcg/min</li>
+                <li><em>Reduce rate after contractions stop; limit use to 48 hrs</em></li>
+            </ul>
+            
+            <img src="https://www.drugs.com/images/pills/mtm/Ventolin-HFA-inhaler.jpg" alt="Salbutamol Inhaler" class="formulation-img">
+            
+            <h3>Formulation Strengths</h3>
+            <table>
+                <tr>
+                    <th>Formulation</th>
+                    <th>Strengths Available</th>
+                    <th>Adult Dosage</th>
+                    <th>Pediatric Dosage</th>
+                </tr>
+                <tr>
+                    <td>Inhaler (MDI/DPI)</td>
+                    <td>90 mcg/actuation</td>
+                    <td>1-2 puffs every 4-6 hrs (Max: 12 puffs/day)</td>
+                    <td>Age ≥4 yrs: 1-2 puffs every 4-6 hrs (Max: 12 puffs/day)</td>
+                </tr>
+                <tr>
+                    <td>Nebulizer Solution</td>
+                    <td>0.083%, 0.5%, 0.63 mg/3 mL, 1.25 mg/3 mL</td>
+                    <td>2.5 mg 2-3× daily or 1.25-5 mg every 4-8 hrs</td>
+                    <td>&lt;2 yrs: 0.2-0.6 mg/kg/day in divided doses; ≥2 yrs: 2.5 mg every 6-8 hrs</td>
+                </tr>
+                <tr>
+                    <td>Tablets (Immediate-Release)</td>
+                    <td>2 mg, 4 mg</td>
+                    <td>2-4 mg every 6-8 hrs (Max: 32 mg/day)</td>
+                    <td>≤6 yrs: 0.2-0.3 mg/kg/day ÷ q8 hrs (Max: 12 mg/day); 6-12 yrs: 2 mg q6-8 hrs</td>
+                </tr>
+                <tr>
+                    <td>Tablets (Extended-Release)</td>
+                    <td>4 mg, 8 mg</td>
+                    <td>4-8 mg every 12 hrs (Max: 32 mg/day)</td>
+                    <td>6-12 yrs: 4 mg q12 hrs (Max: 24 mg/day); >12 yrs: 8 mg q12 hrs</td>
+                </tr>
+                <tr>
+                    <td>Syrup</td>
+                    <td>2 mg / 5 mL</td>
+                    <td>2-4 mg every 6-8 hrs (Max: 32 mg/day)</td>
+                    <td>2-6 yrs: 0.1-0.2 mg/kg every 8 hrs; 6-14 yrs: 2 mg q6-8 hrs</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="card">
+            <h2>Pharmacokinetic Profile</h2>
+            <ul>
+                <li><strong>Absorption:</strong> Rapid after oral/inhaled use. Inhaled dose partly swallowed; lung uptake better with positive pressure breathing.</li>
+                <li><strong>T<sub>max</sub>:</strong> Oral: 2.5-3 hrs; Inhaled: ~3 hrs</li>
+                <li><strong>Half-Life:</strong> 2-7 hours</li>
+                <li><strong>Bioavailability:</strong> ~50% (oral); inhaled dose partly metabolized after swallowing.</li>
+                <li><strong>Distribution:</strong> V<sub>d</sub> ≈ 156 L</li>
+                <li><strong>Excretion:</strong> 
+                    <ul>
+                        <li>Oral: 75-95% urine, ~4% feces</li>
+                        <li>Inhaled: Up to 97% urine, ~11% feces; ~20% lost in air/device</li>
+                        <li>IV: ~80% urine, ~4% feces</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="card" id="side-effects">
+            <h2>Side Effects</h2>
+            
+            <table>
+                <tr>
+                    <th>Category</th>
+                    <th>Frequency</th>
+                    <th>Side Effects</th>
+                </tr>
+                <tr>
+                    <td>General</td>
+                    <td>Common/Very Common</td>
+                    <td>Muscle cramps</td>
+                </tr>
+                <tr>
+                    <td>General</td>
+                    <td>Rare/Very Rare</td>
+                    <td>Akathisia, Vasodilation</td>
+                </tr>
+                <tr>
+                    <td>Specific (Inhalation)</td>
+                    <td>Uncommon</td>
+                    <td>Oral irritation, Throat irritation</td>
+                </tr>
+                <tr>
+                    <td>Specific (Parenteral)</td>
+                    <td>Uncommon</td>
+                    <td>Pulmonary oedema</td>
+                </tr>
+            </table>
+            
+            <div class="warning">
+                <h3>Serious Adverse Reactions (Rare but Possible)</h3>
+                <ul>
+                    <li>Myocardial ischemia (e.g., during labor infusion)</li>
+                    <li>Ventricular ectopics, angina (in patients with heart disease)</li>
+                    <li>Psychosis with excessive oral doses</li>
+                </ul>
+            </div>
+            
+            <h3>Common Side Effects</h3>
+            <ul>
+                <li>Tremor</li>
+                <li>Headache</li>
+                <li>Palpitations</li>
+                <li>Muscle cramps</li>
+                <li>Anxiety (More likely with oral/IV than inhaled route)</li>
+            </ul>
+        </div>
+        
+        <div class="card" id="interactions">
+            <h2>Drug Interactions</h2>
+            <table>
+                <tr>
+                    <th>Interacting Drug/Class</th>
+                    <th>Effect/Concern</th>
+                    <th>Recommendation</th>
+                </tr>
+                <tr>
+                    <td>TCAs / MAOIs</td>
+                    <td>Enhanced cardiovascular effects when used with or within 2 weeks of stopping therapy</td>
+                    <td>Use with caution, monitor cardiac status</td>
+                </tr>
+                <tr>
+                    <td>Beta-blockers</td>
+                    <td>May block bronchodilation effect of salbutamol; non-selective agents may cause bronchospasm</td>
+                    <td>Avoid non-selective beta-blockers in asthma</td>
+                </tr>
+                <tr>
+                    <td>Non-K⁺-sparing diuretics</td>
+                    <td>↑ Risk of hypokalemia, ECG changes, especially at high beta-agonist doses</td>
+                    <td>Monitor electrolytes, use with caution</td>
+                </tr>
+                <tr>
+                    <td>Digoxin</td>
+                    <td>↓ Serum digoxin levels (by 16-22%) when co-administered with albuterol</td>
+                    <td>Monitor digoxin levels regularly</td>
+                </tr>
+            </table>
+            
+            <h3>Food Interactions</h3>
+            <p>Caffeine-containing foods/beverages: May increase central nervous system stimulation and exacerbate tremors or palpitations.</p>
+        </div>
+        
+        <div class="card" id="contraindications">
+            <h2>Special Populations</h2>
+            
+            <h3>Pregnancy</h3>
+            <p>Salbutamol is categorized as Pregnancy Category C (U.S. FDA), which indicates that risk to the fetus cannot be ruled out. Although animal studies have shown adverse fetal effects, controlled studies in pregnant women are lacking. Therefore, it should only be used during pregnancy if the potential benefits outweigh the risks.</p>
+            
+            <h3>Breast Feeding</h3>
+            <p>Inhaled drugs for asthma can be taken as normal during breast-feeding.</p>
+            
+            <div class="warning">
+                <h3>Contraindications</h3>
+                <p>Do not use in uncomplicated premature labour with conditions like abruptio placenta, antepartum haemorrhage, eclampsia, or cardiac disease history. Also contraindicated in placenta praevia, pulmonary hypertension, fetal death/infection, severe pre-eclampsia, or threatened miscarriage.</p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Storage Conditions</h2>
+            <table>
+                <tr>
+                    <th>Form</th>
+                    <th>Storage Conditions</th>
+                </tr>
+                <tr>
+                    <td>Inhaler (MDI/DPI)</td>
+                    <td>Store at below 30°C (86°F). Do not freeze. Keep away from direct sunlight and heat. Replace cap after use.</td>
+                </tr>
+                <tr>
+                    <td>Nebulizer Solution</td>
+                    <td>Store at room temperature (15-30°C). Protect from light. Do not use if solution becomes cloudy or discolored.</td>
+                </tr>
+                <tr>
+                    <td>Tablets (IR/ER)</td>
+                    <td>Store at 25°C (77°F); excursions permitted to 15-30°C. Keep tightly closed.</td>
+                </tr>
+                <tr>
+                    <td>Syrup</td>
+                    <td>Store at room temperature, preferably 15-30°C. Protect from moisture and light.</td>
+                </tr>
+                <tr>
+                    <td>Injection/IV Solution</td>
+                    <td>Store as per manufacturer's label (usually 2-8°C refrigerated). Do not freeze. Discard unused portions.</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="card" id="administration">
+            <h2>Administration Guidelines</h2>
+            
+            <h3>IV Administration (Children)</h3>
+            <ul>
+                <li><strong>Infusion:</strong> Dilute to 200 mcg/mL with Glucose 5% or NaCl 0.9%.</li>
+                <li><strong>Injection:</strong> Dilute to 50 mcg/mL with Glucose 5%, NaCl 0.9%, or Water for Injections.</li>
+                <li><em>Undiluted use via central line is unlicensed.</em></li>
+            </ul>
+            
+            <h3>Inhalation (Nebulisation)</h3>
+            <ul>
+                <li>Dilute with sterile NaCl 0.9% as per nebuliser type/time.</li>
+                <li>Compatible with ipratropium bromide -- can be mixed.</li>
+            </ul>
+            
+            <h3>IV (Adults)</h3>
+            <ul>
+                <li><strong>Bronchodilation:</strong> Dilute to 200 mcg/mL with Glucose 5% or NaCl 0.9%.</li>
+                <li><strong>Premature Labour:</strong>
+                    <ul>
+                        <li>Syringe pump: 200 mcg/mL (Glucose 5%)</li>
+                        <li>Other methods: 20 mcg/mL</li>
+                        <li>Monitor fluid/electrolyte status closely.</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <div class="urdu-link">
+                <p>میٹرڈ ڈوز انہیلر (ایم ڈی آئی) کا سپیسر کے ساتھ استعمال</p>
+                <p><a href="https://www.aboutkidshealth.ca/ur/using-a-metered-dose-inhaler-mdi-with-a-spacer-ur#">مزید معلومات کے لیے یہاں کلک کریں</a></p>
+            </div>
+            
+            <div class="video-container">
+                <h3>How to Use Inhaler</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/doppxjlq40w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <div class="video-container">
+                <h3>Salbutamol Information</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/seoaruka26g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Commonly Available Brands in Pakistan</h2>
+            <table>
+                <tr>
+                    <th>Brand Name</th>
+                    <th>Manufacturer</th>
+                    <th>Form</th>
+                </tr>
+                <tr>
+                    <td>Ventolin®</td>
+                    <td>GSK Pakistan</td>
+                    <td>Inhaler, Nebulizer Solution</td>
+                </tr>
+                <tr>
+                    <td>Asmalin®</td>
+                    <td>Sami Pharma</td>
+                    <td>Inhaler</td>
+                </tr>
+                <tr>
+                    <td>Asthalin®</td>
+                    <td>Cipla</td>
+                    <td>Tablet, Syrup, Inhaler</td>
+                </tr>
+                <tr>
+                    <td>Salbutol®</td>
+                    <td>Getz Pharma</td>
+                    <td>Tablet, Syrup</td>
+                </tr>
+                <tr>
+                    <td>Respigen®</td>
+                    <td>Bosch Pharma</td>
+                    <td>Inhaler</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="card">
+            <h2>References</h2>
+            <ul>
+                <li>BNF 88 Sept 2024-March 2025</li>
+                <li>The Pharmaceutical CODEX (11th Edition)</li>
+                <li>Therapeutic Drugs Volume 1</li>
+                <li>Pharma Guide</li>
+                <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK482272/#:~:text=Albuterol%2C%20also%20known%20as%20salbutamol,%2C%20including%20exercise%2Dinduced%20bronchospasm">NIH-Salbutamol</a></li>
+                <li><a href="https://reference.medscape.com/drug/proventil-hfa-ventolin-hfa-albuterol-343426#0">Medscape-Salbutamol</a></li>
+            </ul>
+        </div>
+        
+        <div class="documented-by">
+            <p>Documented by: <strong>Zainab Amin</strong></p>
+            <p>Reviewed by: Department of Pharmacy, University of Management and Technology</p>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>© 2024 University of Management and Technology - Department of Pharmacy</p>
+            <p>This information is for educational purposes only and should not replace professional medical advice.</p>
+        </div>
+    </footer>
+</body>
+</html>
